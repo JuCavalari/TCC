@@ -1,0 +1,727 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.blog {
+    width: 80px;
+}
+
+.nav {
+    background-color: #009b3a;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    box-sizing: content-box;
+}
+
+.container-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.container-logo img {
+    width: 80px;
+    height: 83px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.logo img {
+    width: 208px;
+
+}
+
+.nav-menu {
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 0%;
+    margin-bottom: -0.1%;
+    border-style: groove;
+    border-color: #c2eeff;
+    background-color: #c2eeff;
+}
+
+.nav-menu a {
+    box-sizing: border-box;
+    font-family: "Concert One", sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 12px 100px;
+    font-weight: 40;
+    transition: all .42s ease;
+    text-decoration: none;
+}
+
+.nav-menu a :hover{
+    color: rgb(173, 173, 173);
+}
+
+.macaco-img {
+    display: flex;
+
+}
+
+
+/*blog*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+.wrapper {
+ 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playwrite DE Grund", cursive;
+  align-items: flex-start;
+  font-style: normal;
+}
+
+.container1 {
+  font-style: normal;
+  font-family: "Playwrite DE Grund", cursive;
+  height: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  
+}
+
+.card {
+ 
+  width: 50px;
+  border-radius: .75rem;
+  background-size: cover;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2rem;
+  margin: 0 10px;
+  display: flex;
+  align-items: flex-end;
+  transition: .6s cubic-bezier(.28,-0.03,0,.99);
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+  font-family: "Playwrite DE Grund", cursive;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.card > .row {
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.card > .row > .icon {
+  background: green;
+  opacity: 0.3;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.card > .row > .icon:hover {
+  background:green;
+  opacity: 0.3;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.card > .row > .description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  height: 80px;
+  width: 520px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition-delay: .3s;
+  transition: all .3s ease;
+  font-family: "Playwrite DE Grund", cursive;
+  font-style: normal;
+}
+
+.description p {
+  color: #383838;
+  padding-top: 5px;
+  font-family: "Playwrite DE Grund", cursive;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+.description h4 b {
+  text-transform: uppercase;
+  font-family: "Playwrite DE Grund", cursive;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+
+input {
+  display: none;
+}
+
+input:checked + label {
+  width: 260px;
+}
+
+input:checked + label .description {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+  background-image: url('/images/blog/1.png');
+}
+.card[for="c2"] {
+  background-image: url('/images/blog/2.png');
+}
+.card[for="c3"] {
+  background-image: url('/images/blog/3.png');
+}
+.card[for="c4"] {
+  background-image: url('/images/blog/4.png');
+}
+.card[for="c5"] {
+  background-image: url('/images/blog/5.png');
+}
+.card[for="c6"] {
+  background-image: url('/images/blog/6.png');
+}
+.card[for="c7"] {
+  background-image: url('/images/blog/7.png');
+}
+.card[for="c8"] {
+  background-image: url('/images/blog/8.png');
+}
+.card[for="c9"] {
+  background-image: url('/images/blog/9.png');
+}
+.card[for="c10"] {
+  background-image: url('/images/blog/10.png');
+}
+.card[for="c11"] {
+  background-image: url('/images/blog/11.png');
+}
+.card[for="c12"] {
+  background-image: url('/images/blog/12.png');
+}
+.card[for="c13"] {
+  background-image: url('/images/blog/13.png');
+}
+.card[for="c14"] {
+  background-image: url('/images/blog/14.png');
+}
+.card[for="c15"] {
+  background-image: url('/images/blog/15.png');
+}
+.card[for="c16"] {
+  background-image: url('/images/blog/16.png');
+}
+.card[for="c17"] {
+  background-image: url('/images/blog/17.png');
+}
+.card[for="c18"] {
+  background-image: url('/images/blog/18.png');
+}
+.card[for="c19"] {
+  background-image: url('/images/blog/19.png');
+}
+.card[for="c20"] {
+  background-image: url('/images/blog/20.png');
+}
+.card[for="c21"] {
+  background-image: url('/images/blog/21.png');
+}
+.card[for="c22"] {
+  background-image: url('/images/blog/22.png');
+}
+.card[for="c23"] {
+  background-image: url('/images/blog/23.png');
+}
+.card[for="c24"] {
+  background-image: url('/images/blog/24.png');
+}
+
+
+.wrap{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap:10px;
+  padding:0.5em;
+  perspective:500px;
+  
+}
+.article {
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  position:relative;
+  background-size:cover;
+  border-radius:7px;
+  overflow:hidden;
+  padding:1em;
+  cursor:pointer;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: all 0.2s linear ;
+  will-change: transform;
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.article:hover {
+  box-shadow: 5px 5px 10px #009b3a;
+}
+
+.article:nth-child(5n+1){
+    background-image:url("https://www.sciencefriday.com/wp-content/uploads/2023/09/baby-parent-tamarin.jpg");
+}
+
+.article:nth-child(5n+2){
+    background-image:url("https://www.sospantanal.org.br/wp-content/uploads/2024/07/Onca-Jofre-1.webp");
+}
+.article:nth-child(5n+3){
+  background-image:url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/nationalgeographic_2176557-menor.jpg?w=760&h=506");
+}
+
+.article:nth-child(5n+4){
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/d/da/Arara_Azul_no_Pantanal.jpg");
+}
+.article:nth-child(5n+5){
+  background-image:url("https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/02gambarini_779-24.jpg?w=1600&h=900");
+}
+
+.article:nth-child(5n+6){
+  background-image:url("https://gorgulho.com/wp-content/uploads/2023/05/24-1000x600.jpg");
+}
+
+.article h1{
+  font-size:1.5em;
+ 
+  margin-top:auto;
+  cursor:pointer;
+  transition:all 0.3s;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+}
+
+.article h1{
+  transform:translateY(-20px)
+}
+.article h1 span{
+  color:#fff;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article p a {
+  color: #fff;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article p a:hover {
+  color: yellow;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article span.cat {
+  letter-spacing:2px;
+  font-weight:bold;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  overflow:hidden;
+  color:#fff;
+}
+
+@media screen and (min-width:1000px){
+  .wrap{
+    grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
+    grid-gap:20px;
+    padding:1em;
+  }
+  .article h1{
+    transform:translateY(0px);
+  }
+  .article:hover h1{
+  transform:translateY(-20px)
+  }
+  
+  .article span.cat {
+    color:transparent;
+  }
+  
+.article span.cat::before,.article span.cat::after{
+  content:attr(data-hover);
+  position:absolute;
+  display:inline-block;
+  left:0;
+  top:0;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width:0%;
+  transition:max-width 300ms ease-out; 
+}
+.article span.cat::before {
+  color:yellow;
+  transition-delay:100ms;
+}
+.article span.cat::after {
+  color:white;
+}
+
+.article:hover span.cat:after,.article:hover span.cat:before{
+  max-width:100%;
+}
+
+.article:hover span.cat:after {
+  transition-delay:300ms;
+}
+}
+
+
+
+
+
+
+/*dados*/
+.container2 {
+    display: inline-block;
+    align-items: center;
+    margin: 25px 3px 30px 3px;
+
+}
+
+.maincontainer
+{
+    width: 302px;
+    height: 299px;
+    margin: 7px;
+    float: left; 
+}
+
+.imag img
+{
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px;
+    border-radius: 20px;
+    width: 302px;
+    height: 299px;
+    margin:2px;
+    float: left; 
+}
+
+.back h2 b
+{
+    margin-top: 1px;
+    position: absolute;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+}
+
+.back p 
+{
+    position: absolute;
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.front h2
+{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    position: absolute;
+    padding: 40px;
+    top: 200px;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.maincontainer > .front
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    width: 302px;
+    height: 290px;
+    backface-visibility: hidden; 
+    transition: transform .5s linear 0s;
+}
+
+
+.maincontainer > .back
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: orange;
+    color: #fff;
+    width: 302px;
+    height: 290px;
+    border-radius: 20px;
+    padding: 5px;
+    backface-visibility: hidden; 
+    transition: transform .5s linear 0s;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px;
+}
+
+.maincontainer:hover > .front
+{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+.wrap2{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  grid-gap:10px;
+  padding:0.5em;
+  perspective:500px;
+  
+}
+.article2 {
+  display:flex;
+  flex-direction:column;
+  height:300px;
+  position:relative;
+  background-size:cover;
+  border-radius:7px;
+  overflow:hidden;
+  padding:1em;
+  cursor:pointer;
+  transform: rotateX(0deg) rotateY(0deg);
+  transition: all 0.2s linear ;
+  will-change: transform;
+  box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.article2:hover {
+  box-shadow: 5px 5px 10px #009b3a;
+}
+
+.article2:nth-child(5n+1){
+    background-image:url("https://imazon.org.br/wp-content/uploads/2018/04/floresta.jpg");
+}
+
+.article2:nth-child(5n+2){
+    background-image:url("https://papelsemente.com.br/wp-content/uploads/2022/09/mata-atlantica-de-brasil.jpg");
+}
+.article2:nth-child(5n+3){
+  background-image:url("https://www.rioquente.com.br/images/news/0532/cerrado_goiano.jpg");
+}
+
+.article2:nth-child(5n+4){
+  background-image:url("https://services.meteored.com/img/article/mudancas-climaticas-poderao-levar-a-perda-de-mais-de-90-da-riqueza-de-especies-da-caatinga-1698511070463_1280.jpg");
+}
+.article2:nth-child(5n+5){
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_do_Taim.jpg/1200px-Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_do_Taim.jpg");
+}
+
+.article2:nth-child(5n+6){
+  background-image:url("https://s2.static.brasilescola.uol.com.br/be/2020/06/areas-alagadas.jpg");
+}
+
+.article2 h1{
+  font-size:1.5em;
+ 
+  margin-top:auto;
+  cursor:pointer;
+  transition:all 0.3s;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+}
+
+.article2 h1{
+  transform:translateY(-20px)
+}
+.article2 h1 span{
+  color:#fff;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article2 p a {
+  color: #fff;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article2 p a:hover {
+  color: yellow;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.article2 span.cat2 {
+  letter-spacing:2px;
+  font-weight:bold;
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  overflow:hidden;
+  color:#fff;
+}
+
+@media screen and (min-width:1000px){
+  .wrap2{
+    grid-template-columns:repeat(auto-fit,minmax(600px,1fr));
+    grid-gap:20px;
+    padding:1em;
+  }
+  .article2 h1{
+    transform:translateY(0px);
+  }
+  .article2:hover h1{
+  transform:translateY(-20px)
+  }
+  
+  .article2 span.cat2 {
+    color:transparent;
+  }
+  
+.article2 span.cat2::before,.article2 span.cat2::after{
+  content:attr(data-hover);
+  position:absolute;
+  display:inline-block;
+  left:0;
+  top:0;
+  white-space: nowrap;
+  overflow:hidden;
+  max-width:0%;
+  transition:max-width 300ms ease-out; 
+}
+.article2 span.cat2::before {
+  color:yellow;
+  transition-delay:100ms;
+}
+.article2 span.cat2::after {
+  color:white;
+}
+
+.article2:hover span.cat2:after,.article2:hover span.cat2:before{
+  max-width:100%;
+}
+
+.article2:hover span.cat2:after {
+  transition-delay:300ms;
+}
+}
+/*rodapé*/
+
+.rodape {
+    background-color: #c2eeff;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.social-icon i :hover{
+    transform: scale(1.3);
+}
+
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+} 
+
+.rodape-div-1 img{
+    width: 250px ;
+}
+
+.rodape span {
+    font-size: 30px;
+    color: rgb(2, 0, 112);
+}
+
+.rodape-direitos {
+    width: calc(100% - 20px);
+    background-color: rgb(0, 8, 83);
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.rodape-div-2-coluna,
+.rodape-div-3-coluna,
+.rodape-div-4-coluna{
+    margin-top: 15%;
+}
+
+.social-icon :hover{
+    color: #06bb00;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+
+    .rodape-div-1,
+    .rodape-div-2,
+    .rodape-div-3,
+    .rodape-div-4 {
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+
+    .rodape-div {
+        padding: 60px 0px 40px 0px;
+    }
+}
+
